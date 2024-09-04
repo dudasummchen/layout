@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* PADRONIZACAO DAS CORES POR VARIAVEIS*/
+:root{
+  --corAzul: #0044AF;
+  --corVermelho:#FF0122;
+  --corAmarelo: #FFAF00;
+}
+#vertical .container{
+    width: 550px;
+    height: 350px;
+    /*define no formato GRID*/
+    display: grid;
+    /*define o padrao de colunas - repetir(numCol,tam)*/
+    grid-template-columns: repeat(3,33%);
+    /*define o padrao de linhas - repetir(numLin, tam*/
+    grid-template-rows: repeat(1,350px);
+    /*define o espacamento entre colunas e linhas*/
+    grid-column-gap: 0px;
+    grid-row-gap: 1px;
+
+}
+#vertical .container .item1{
+    background-color: var(--corAmarelo);
+}
+
+
+#vertical .container .item2{
+    background-color: var(--corAzul);
+}
+
+#vertical .container .item3{
+    background-color: var(--corVermelho);
+}
+#horizontal .container{
+width: 550px;
+height: 350px;
+/*define no formato GRID*/
+display: grid;
+/*define o padrao de colunas - repetir(numCol,tam)*/
+grid-template-columns: repeat(1,100%);
+/*define o padrao de linhas - repetir(numLin, tam*/
+grid-template-rows: repeat(1,350px);
+/*define o espacamento entre colunas e linhas*/
+grid-column-gap: 0px;
+grid-row-gap: 0px; 
+}
+
+#horizontal .container .item1{
+    background-color: var(--corAmarelo);
+}
+
+
+#horizontal .container .item2{
+    background-color: var(--corAzul);
+}
+
+#horizontal .container .item3{
+    background-color: var(--corVermelho);
+}

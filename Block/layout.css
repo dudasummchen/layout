@@ -1,0 +1,244 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ 
+header{
+    width: 100%;
+    height: 500px;
+    display: block;
+    float: left;
+    background-image: url(https://earmilk.com/wp-content/uploads/2019/06/daniel-caesarjpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    background-position: center;
+}
+header h1{
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 381px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 55px;
+  color: white;
+}
+main{
+    width: 100%;
+    height: 753px;
+    display: block;
+    float: left;
+    background-color:white
+}
+main h1{
+    text-align: left;
+    height: 35px ;
+    padding-left: 71px;
+    padding-top: 30px;
+    color: #000;
+ 
+}
+main .p1{
+    text-align: left;
+    font-size: 18px;
+    padding-left: 71px;
+   padding-top: 6px;
+   width: 89%;
+ 
+}
+main .p2{
+    text-align: left;
+    font-size: 17px;
+    padding-left: 71px;
+    padding-top: 6px;
+    width:  89%;
+}
+main .p3{
+    text-align: left;
+    font-size: 17px;
+    padding-left: 71px;
+    padding-top: 6px ;
+    width: 89%;
+}
+main img{
+    width:1129px;
+    height:428px;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    display: block;
+    float: left;
+    background-color: darkorchid;
+}
+footer section:first-child{
+    width: 33.3%;
+  height: 350px;
+  float: left;
+  display: block;
+  padding-top: 5px;
+  padding-left: 0px;
+ background-color: yellow;
+}
+footer section img{
+    width: 385px;
+    height: 145px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+footer section .p{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 42px;
+}
+#box{
+    width:121px;
+    height:35px;
+    background-color:white;
+   
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 135px;
+ }
+.box {
+    background-color: none;
+    padding: 15px; 
+    text-align: center;
+     margin: -33px;
+     padding-left: 0px;
+     padding-top: 0px;
+ }
+.link{
+     color: #000000; /* Cor do texto do link */
+     text-decoration: none; /* Remove o sublinhado */
+     font-size: 21px; /* Tamanho da fonte */
+     padding-top: 0px;
+     padding-left: 0px;
+     margin-left: 22px;
+     
+ }
+ 
+.link:hover {
+     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+ }
+
+
+
+footer section{
+    width: 33.3%;
+    height: 350px;
+    float: left;
+    display: block;
+    padding-top: 5px;
+    padding-left: 1px;
+   background-color: rgb(144, 175, 209);
+}
+
+footer section img{
+    width: 385px;
+    height: 145px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+footer section .p4{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 42px;
+}
+#box1{
+    width:121px;
+    height:35px;
+    background-color:white;
+   
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: 21px;
+    margin-left: 148px;
+      
+}
+
+.link1 {
+color: #000000; /* Cor do texto do link */
+text-decoration: none; /* Remove o sublinhado */
+font-size: 21px; /* Tamanho da fonte */
+padding-top: 0px;
+padding-left: 0px;
+margin-left: 10px;
+
+}
+
+.link:hover {
+text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+
+
+
+footer section:last-child{
+    width: 33.3%;
+    height: 350px;
+    float: left;
+    display: block;
+    padding-top: 5px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: chartreuse;
+}
+footer section img{
+    width: 385px;
+    height: 145px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+footer section .p5{
+    text-align: left;
+    font-size: 15px;
+    padding-top: 6px ;
+    width: 89%;
+}
+
+#box2{
+   
+  width:121px;
+ height:35px;
+ background-color: white;
+ border-radius: 10px 20px 30px 40px;
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+ border-bottom-right-radius: 15px;
+ border-bottom-left-radius: 15px;
+ margin-left: 182px;
+ margin-top: 6px;
+        
+  }
+
+.box2{
+   background-color: none;
+   padding: 15px; 
+   text-align: center;
+    margin: -33px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.link2{
+    color: #000000; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 21px; /* Tamanho da fonte */
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-left: 28px;
+    
+}
+
+.link:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}

@@ -1,0 +1,20 @@
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(46,103,28,1) 0%);
+}
+h1{
+    text-align: center;  
+    font-size: 45px; 
+   }
+   h2{
+    text-align:center;
+    font-size: 40px;
+   }
+    
+   ul{
+    font-size: 25px;
+   }
+   
+   p{
+    font-size: 25px;
+   }
